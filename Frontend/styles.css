@@ -1,0 +1,37 @@
+/* Estilo para la tabla */
+table {
+    width: 100%;  /* La tabla ocupará el 100% del ancho del contenedor */
+    border-collapse: collapse; /* Elimina los espacios entre las celdas */
+    margin: 20px 0;  /* Espaciado arriba y abajo de la tabla */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  /* Sombra suave para darle un efecto elegante */
+}
+
+/* Estilo para las celdas (th, td) */
+th, td {
+    padding: 12px; /* Espaciado interno de las celdas */
+    text-align: left; /* Alineación de texto a la izquierda */
+    border: 2px solid #ddd; /* Bordes delgados y grises para las celdas */
+}
+
+/* Estilo para los encabezados (th) */
+th {
+    background-color: #f2f2f2; /* Fondo gris claro para los encabezados */
+    font-weight: bold; /* Negrita en los encabezados */
+    color: #333; /* Color de texto oscuro para los encabezados */
+}
+
+/* Estilo para las filas (tr) */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color alterno para las filas pares */
+}
+
+/* Resaltado de filas al pasar el mouse (hover) */
+tr:hover {
+    background-color: #edff86; /* Fondo claro al pasar el ratón sobre una fila */
+}
+
+/* Ajuste de bordes para las celdas */
+td {
+    border-top: 1px solid #ddd; /* Bordes en la parte superior de cada celda */
+    border-bottom: 1px solid #ddd; /* Bordes en la parte inferior de cada celda */
+}
